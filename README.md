@@ -1,18 +1,12 @@
-<p>
-  <a href="#" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
-  </a>
-  <a href="https://twitter.com/jimgbest" target="_blank">
-    <img alt="Twitter: jimgbest" src="https://img.shields.io/twitter/follow/jimgbest.svg?style=social" />
-  </a>
-</p>
+Custom fork of [ariake.nvim](https://github.com/jim-at-jibba/ariake.nvim), eg to make more distinction of modified buffers in MiniTabline, and set CursorLine to not override fg colour.
 
-> Beautiful, dark colour schema for Neovim
+Beautiful, dark colour schema for Neovim
 
-<div align="center">
-    <h1>Ariake</h1>
-    <img alt="Example" src="./assets/typescriptreact.png" />
-</div>
+# Ariake
+
+<img alt="Example" src="./assets/typescriptreact.png" />
+
+(Assets from original repo, not this fork.)
 
 > Created with [colorgen](https://github.com/ChristianChiarulli/colorgen-nvim)
 
@@ -28,9 +22,8 @@ Example with Lazy.nvim
 ```lua
 return {
     {
-        'jim-at-jibba/ariake.nvim',
+        'j-w-e/ariake.nvim',
         config = function ()
-
          vim.cmd.colorscheme 'ariake'
         end
     }
@@ -46,6 +39,7 @@ In the extras folder there are Ariake theme files for:
 
 ## Examples
 
+(Assets from original repo, not this fork.)
 
 <img alt="Example" src="./assets/go.png" />
 <img alt="Example" src="./assets/python.png" />
@@ -53,20 +47,9 @@ In the extras folder there are Ariake theme files for:
 
 ## Maintainers
 
-| [![James](https://avatars.githubusercontent.com/u/7897877?v=4&size=100)](https://github.com/jim-at-jibba) |
-| ----------------------------------------------------------------------------- |
-| James Best                                                                  |
+See the main repo, [ariake.nvim](https://github.com/jim-at-jibba/ariake.nvim)
 
-
-* Website: jamesbest.uk
-* Twitter: [@jimgbest](https://twitter.com/jimgbest)
-* Github: [@jim-at-jibba](https://github.com/jim-at-jibba)
 ## License
 
 [MIT License](./LICENSE)
-
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
 
